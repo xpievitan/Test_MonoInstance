@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectData projectKey="7db7f59e-8680-44b0-96bd-0e9aebd671f1">
+  <BusinessProcess>
+    <ID>1</ID>
+    <Name>Business Process-1</Name>
+    <Flow>
+      <ID>2</ID>
+      <Name>Flow-2</Name>
+      <Step>
+        <ID>17</ID>
+        <Name>Save Message</Name>
+      </Step>
+    </Flow>
+    <Flow>
+      <ID>3</ID>
+      <Name>Flow-3</Name>
+      <Step>
+        <ID>17</ID>
+        <Name>Save Message</Name>
+      </Step>
+    </Flow>
+    <Flow>
+      <ID>4</ID>
+      <Name>Flow-4</Name>
+      <Step>
+        <ID>17</ID>
+        <Name>Save Message</Name>
+      </Step>
+    </Flow>
+    <Flow>
+      <ID>1</ID>
+      <Name>Flow-1</Name>
+      <Step>
+        <ID>3</ID>
+        <Name>Save Message</Name>
+      </Step>
+      <Step>
+        <ID>6</ID>
+        <Name>Lock Resource</Name>
+      </Step>
+      <Step>
+        <ID>10</ID>
+        <Name>Delay</Name>
+      </Step>
+      <Step>
+        <ID>12</ID>
+        <Name>Display Lock Return Code</Name>
+      </Step>
+      <Step>
+        <ID>14</ID>
+        <Name>Unlock Resource</Name>
+      </Step>
+      <Step>
+        <ID>16</ID>
+        <Name>Display UnLock Return Code</Name>
+      </Step>
+      <Step>
+        <ID>19</ID>
+        <Name>Enable Flow-2</Name>
+      </Step>
+      <Step>
+        <ID>23</ID>
+        <Name>Enable Flow-3</Name>
+      </Step>
+      <Step>
+        <ID>24</ID>
+        <Name>Enable Flow-4</Name>
+      </Step>
+      <Trigger>
+        <ID>2</ID>
+        <Name>Directory Scanner</Name>
+      </Trigger>
+      <Trigger>
+        <ID>5</ID>
+        <Name>Scheduler Utility</Name>
+      </Trigger>
+    </Flow>
+  </BusinessProcess>
+</ProjectData>
